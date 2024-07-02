@@ -1,0 +1,33 @@
+/* Details.css */
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .details-container li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .details-container a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .details-container a:hover {
+    text-decoration: underline;
+  }
+  
